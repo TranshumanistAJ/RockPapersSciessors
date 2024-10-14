@@ -1,18 +1,27 @@
+import random
+
+# Print Logo
 def print_logo():
     print("""
-
- ######                                                                                                                   
- #     #  ####   ####  #    #    #####    ##   #####  ###### #####      ####   ####  #  ####   ####   ####  #####   ####  
- #     # #    # #    # #   #     #    #  #  #  #    # #      #    #    #      #    # # #      #      #    # #    # #      
- ######  #    # #      ####      #    # #    # #    # #####  #    #     ####  #      #  ####   ####  #    # #    #  ####  
- #   #   #    # #      #  #      #####  ###### #####  #      #####          # #      #      #      # #    # #####       # 
- #    #  #    # #    # #   #     #      #    # #      #      #   #     #    # #    # # #    # #    # #    # #   #  #    # 
- #     #  ####   ####  #    #    #      #    # #      ###### #    #     ####   ####  #  ####   ####   ####  #    #  ####  
-                                                                                                                          
-
+    ######                                                                                                                   
+    #     #  ####   ####  #    #    #####    ##   #####  ###### #####      ####   ####  #  ####   ####   ####  #####   ####  
+    #     # #    # #    # #   #     #    #  #  #  #    # #      #    #    #      #    # # #      #      #    # #    # #     
+    #     # #    # #      ######    #    # #    # #      #####  #    #    #  ### #    # # ####   ####   #    # #####   ####  
+    #     # #    # #      #    #    #    # ###### #      #      #####      #    # #    # # #      #      #    # #   #      #
+    #     # #    # #    # #    #    #    # #    # #    # #      #   #      #    # #    # # #      #      #    # #    # #    #
+     #####   ####   ####  #    #     #####  #    #  ####  ###### #    #      ####   ####  #  ####   ####   ####  #    #  ####
     """)
 
+# Show Rules
+def show_rules():
+    print("""
+    Rules:
+    - Rock crushes Scissors
+    - Scissors cuts Paper
+    - Paper covers Rock
+    """)
 
+# Main Menu
 def main_menu():
     print_logo()
     print('Please select from one of the following options')
@@ -23,21 +32,79 @@ def main_menu():
     print('4. Exit')
     print('-----------')
     can_continue = False
-
     while not can_continue:
-        choice = input('choose between 1 - 3 \n')
+        choice = input('Choose between 1 - 4: ')
         if choice == '1':
-            print('option 1 pressed')
+            play_game()
             can_continue = True
         elif choice == '2':
-            print('option 2 pressed')
+            show_rules()
+            main_menu()
             can_continue = True
         elif choice == '3':
-            print('option 3 pressed')
+            reset_scores()
+            main_menu()
             can_continue = True
         elif choice == '4':
             exit()
         else:
-            print('incorrect option chosen')
+            print('Incorrect option chosen. Please try again.')
 
-main_menu()
+# Get User's Choice
+def get_user_choice():
+    user_input = input("Enter your choice (rock, paper, scissors): ").lower()
+    while user_input not in ['rock', 'paper', 'scissors']:
+        print("Invalid choice. Please try again.")
+        user_input = input("Enter your choice (rock, paper, scissors): ").lower()
+    return user_input
+
+# Get Computer's Choice
+def get_computer_choice():
+    return random.choice(['rock', 'paper', 'scissors'])
+
+# Determine Winner
+def determine_winner(user_choice, computer_choice):
+    if user_choice == computer_choice:
+        return "It's a tie!"
+    elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+         (user_choice == 'paper' and computer_choice == 'rock') or \
+         (user_choice == 'scissors' and computer_choice == 'paper'):
+        return "You win!"
+    else:
+        return "Computer wins!"
+
+# Reset Scores
+def reset_scores():
+    global user_score, computer_score
+    user_score = 0
+    computer_score = 0
+    print("Scores have been reset.")
+
+# Play Game
+def play_game():
+    global user_score, computer_score
+    print("Welcome to Rock-Paper-Scissors!")
+    user_name = input("Enter your name: ")
+    while True:
+        user_choice = get_user_choice()
+        computer_choice = get_computer_choice()
+        print(f"{user_name} chose: {user_choice}")
+        print(f"Computer chose: {computer_choice}")
+        result = determine_winner(user_choice, computer_choice)
+        print(result)
+        if result == "You win!":
+            user_score += 1
+        elif result == "Computer wins!":
+            computer_score += 1
+        print(f"Scores - {user_name}: {user_score}, Computer: {computer_score}")
+        continue_playing = input("Do you want to play again? (yes/no): ").lower()
+        if continue_playing != 'yes':
+            break
+    main_menu()
+
+# Initialize Scores
+user_score = 0
+computer_score = 0
+
+if __name__ == "__main__":
+    main_menu()
