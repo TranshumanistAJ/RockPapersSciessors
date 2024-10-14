@@ -19,7 +19,9 @@ def show_rules():
     - Rock crushes Scissors
     - Scissors cuts Paper
     - Paper covers Rock
-    """)
+    """) 
+    input("Press enter to continue")
+    main_menu()
 
 # Main Menu
 def main_menu():
@@ -39,7 +41,7 @@ def main_menu():
             can_continue = True
         elif choice == '2':
             show_rules()
-            main_menu()
+            
             can_continue = True
         elif choice == '3':
             reset_scores()
@@ -75,6 +77,7 @@ def determine_winner(user_choice, computer_choice):
 
 # Reset Scores
 def reset_scores():
+    print("Word")
     global user_score, computer_score
     user_score = 0
     computer_score = 0
@@ -97,8 +100,8 @@ def play_game():
         elif result == "Computer wins!":
             computer_score += 1
         print(f"Scores - {user_name}: {user_score}, Computer: {computer_score}")
-        continue_playing = input("Do you want to play again? (yes/no): ").lower()
-        if continue_playing != 'yes':
+        continue_playing = input("Do you want to play again? (y/n): ").lower()
+        if continue_playing != 'y':
             break
     main_menu()
 
