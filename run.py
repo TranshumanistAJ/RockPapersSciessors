@@ -19,7 +19,7 @@ def show_rules():
     - Rock crushes Scissors
     - Scissors cuts Paper
     - Paper covers Rock
-    """) 
+    """)
     input("Press enter to continue")
     main_menu()
 
@@ -40,8 +40,7 @@ def main_menu():
             play_game()
             can_continue = True
         elif choice == '2':
-            show_rules()
-            
+            show_rules()            
             can_continue = True
         elif choice == '3':
             reset_scores()
@@ -54,11 +53,18 @@ def main_menu():
 
 # Get User's Choice
 def get_user_choice():
-    user_input = input("Enter your choice (rock, paper, scissors): ").lower()
-    while user_input not in ['rock', 'paper', 'scissors']:
+    user_input = input("Enter your choice (rock(r), paper(p), scissors(s)): ").lower()
+    while user_input not in ['rock', 'paper', 'scissors', 'r', 'p', 's']:
         print("Invalid choice. Please try again.")
-        user_input = input("Enter your choice (rock, paper, scissors): ").lower()
-    return user_input
+        user_input = input("Enter your choice (rock(r), paper(p), scissors(s)): ").lower()
+    if user_input == 'r':
+        return 'rock'
+    elif user_input == 'p':
+        return 'paper'
+    elif user_input == 's':
+        return 'scissors'
+    else:
+        return user_input
 
 # Get Computer's Choice
 def get_computer_choice():
