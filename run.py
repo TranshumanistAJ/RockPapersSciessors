@@ -115,6 +115,6 @@ def play_game():
 # These global variables keep track of the scores for the user and computer
 user_score = 0
 computer_score = 0
-
+#This conditional ensures that the main_menu() function is called only if the script is run directly
 if __name__ == "__main__":
     main_menu()
