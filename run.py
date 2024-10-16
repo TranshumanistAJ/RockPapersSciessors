@@ -1,6 +1,7 @@
 import random
+# This will be used to generate the computer's choice in the game.
 
-# Print Logo
+# This function prints the art logo for the game when called
 def print_logo():
     print("""
     ######                                                                                                                   
@@ -12,7 +13,7 @@ def print_logo():
      #####   ####   ####  #    #     #####  #    #  ####  ###### #    #      ####   ####  #  ####   ####   ####  #    #  ####
     """)
 
-# Show Rules
+# This function displays the rules of the game and waits for the user to press enter before returning to the main menu.
 def show_rules():
     print("""
     Rules:
