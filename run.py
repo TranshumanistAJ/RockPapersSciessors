@@ -24,7 +24,7 @@ def show_rules():
     input("Press enter to continue")
     main_menu()
 
-# Main Menu
+# This function displays the main menu, prints the logo, and handles user input for menu choices
 def main_menu():
     print_logo()
     print('Please select from one of the following options')
@@ -52,7 +52,7 @@ def main_menu():
         else:
             print('Incorrect option chosen. Please try again.')
 
-# Get User's Choice
+# This function prompts the user for their choice, validates the input, and returns the full word rock paper or sciessors
 def get_user_choice():
     user_input = input("Enter your choice (rock(r), paper(p), scissors(s)): ").lower()
     while user_input not in ['rock', 'paper', 'scissors', 'r', 'p', 's']:
@@ -67,11 +67,11 @@ def get_user_choice():
     else:
         return user_input
 
-# Get Computer's Choice
+# This function randomly selects and returns the computer's choice using the crandom computer choice
 def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
 
-# Determine Winner
+# This function compares the user's choice with the computer's choice and returns the result of the game
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         return "It's a tie!"
@@ -82,7 +82,7 @@ def determine_winner(user_choice, computer_choice):
     else:
         return "Computer wins!"
 
-# Reset Scores
+# This function resets both the user's and computer's scores to zero
 def reset_scores():
     print("Word")
     global user_score, computer_score
@@ -90,7 +90,7 @@ def reset_scores():
     computer_score = 0
     print("Scores have been reset.")
 
-# Play Game
+# This function contains the main game loop, handling multiple rounds of the game until the user chooses to stop playing
 def play_game():
     global user_score, computer_score
     print("Welcome to Rock-Paper-Scissors!")
@@ -112,7 +112,7 @@ def play_game():
             break
     main_menu()
 
-# Initialize Scores
+# These global variables keep track of the scores for the user and computer
 user_score = 0
 computer_score = 0
 
