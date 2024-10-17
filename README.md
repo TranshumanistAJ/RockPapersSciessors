@@ -65,4 +65,43 @@ The Rock-Paper-Scissors game is a classic hand game brought to life through a te
 - To provide clear instructions and a definite win condition for each round.
 - To provide an enjoyable user experience of playing Rock-Paper-Scissors.
 - To deliver a fun and engaging take on the traditional game that keeps users entertained.
+_____
+
+### Color Scheme:
+- Not in the scope of this project.
+
+### Typography:
+- Not in the scope of this project.
+
+___
+
+### Features:
+- #### Main Menu:
+   It allows users to start the game, view rules, reset scores, or exit.
+
+- #### Personalized Experience: 
+  Players enter their names, which are used throughout the game.
+
+- #### Flexible Input Options: 
+  Users can input 'rock', 'paper', 'scissors', or the abbreviations 'r', 'p', 's'.
+
+- #### Score Tracking: 
+  It keeps track of and displays scores for both the player and the computer.
+
+- #### Randomized Computer Choicesmodule for unpredictable gameplay:
+  It uses Python's random module for unpredictable gameplay.
+____
+### Data Model:
+##### The game operates with several functions different managing aspects:
+
+- **print_logo()**: Displays the game's ASCII art logo.
+- **show_rules()**: Displays the rules of the game.
+- **main_menu()**: Handles the main menu interactions.
+- **get_user_choice()**: Validates and processes the user's input.
+- **get_computer_choice()**: Randomly selects the computer's choice.
+- **determine_winner()**: Compares choices and determines the winner.
+- **reset_scores()**: Resets both the user's and computer's scores.
+- **play_game()**: Manages the game loop, user input, and score updates.
+
+
 
