@@ -102,6 +102,61 @@ ____
 - **determine_winner()**: Compares choices and determines the winner.
 - **reset_scores()**: Resets both the user's and computer's scores.
 - **play_game()**: Manages the game loop, user input, and score updates.
+____
+
+*** images of the game and their deployment
+
+_____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### **Future Enhancements**:
+ ####  There are several areas with scope for future improvement. This project has been very challenging, and ultimately the project deadline was looming. I would have liked to add the following:
+- Adding a player vs player option.
+- The option of skipping the rules for returning players.
+- The option to randomly choose the computer's selection for quicker games.
+- An option to have different difficulty levels with varying randomness or predictability of the computer's choices.
+____
+## Testing Phase: 
+
+​**Validators**
+
+
+## Bugs
+
+-
+-
+-
+-
+-
+
+____
+
+
 
 
 
