@@ -58,3 +58,11 @@ The Rock-Paper-Scissors game is a classic hand game brought to life through a te
 - As a user, I want to be able to choose whether or not to play again when the game ends.
 - As a user, I want to be able to win against the computer.
 
+#### Site Aims:
+
+- To offer the user a smooth and bug-free version of a classic game with a modern, interactive twist.
+- To provide a clean and simple interface for the user within the Gitpod environment, with no need to reference external sources.
+- To provide clear instructions and a definite win condition for each round.
+- To provide an enjoyable user experience of playing Rock-Paper-Scissors.
+- To deliver a fun and engaging take on the traditional game that keeps users entertained.
+
