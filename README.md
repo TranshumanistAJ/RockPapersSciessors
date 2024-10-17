@@ -1,32 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock-Paper-Scissors Game
+### Overview:
+The Rock-Paper-Scissors game is a classic hand game brought to life through a terminal-based Python application. This project aims to offer a quick, fun, and interactive gaming experience where users can challenge the computer in a series of rounds to determine the ultimate winner.
 
-Welcome,
+### Features include:
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+- User-Friendly Interface : Easy-to-navigate menu options to start the game, view rules, reset scores, or exit the application.
 
-## Reminders
+- Personalization : Players are prompted to enter their name for a personalized experience.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+- Flexible Input : Supports both full word inputs (rock, paper, scissors) and abbreviations (r, p, s) for ease of use.
 
-## Creating the Heroku app
+- Dynamic Score Tracking : Continuously tracks and displays scores of both the player and the computer.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- Replayability : Players can play multiple rounds and return to the main menu at any time.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- Randomized Choices : The computer's choices are randomized using Python's random module, ensuring a fair and unpredictable game.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Table of Contents
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
----
 
-Happy coding!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Planning Stage
+
+
+#### Target Audiences:
+- People who enjoy classic games like Rock Paper Scissors.
+- Individuals looking for a quick, casual game to play during short breaks.
+- Players interested in a simple but engaging terminal-based game.
+- Fans of traditional games looking for a digital twist.
+- Aspiring coders seeking to understand basic game logic and Python programming through an interactive project.
+
+#### User Stories:
+- As a user, I want to understand the premise of the game.
+- As a user, I want to quickly learn and understand the rules and instructions of the game.
+- As a user, I want the game to run smoothly and bug-free in the Gitpod environment.
+- As a user, I want to be able to choose whether or not to play again when the game ends.
+- As a user, I want to be able to win against the computer.
+
