@@ -156,6 +156,47 @@ ____
 
 ____
 
+## Unfixed Bugs
+- There are no known unfixed bugs.
+
+## Deployment:
+
+
+### **Tech**
+
+I used the following technologies for the Rock-Paper-Scissors project:
+- **Python**: For the core game logic and functionality.
+- **Gitpod**: As the development environment.
+- **Git**: For version control and code management.
+- **Heroku**: For deploying the game online.
+
+
+## Libraries
+
+-
+-
+
+## Software
+-
+-
+-
+
+## Media
+Not in the scope of this project.
+
+## Credits
+
+
+## Honorable Mentions
+- A huge thank you to my mentor, Richard Wells, for his generous time and invaluable feedback throughout this project. His insights, ideas, and support have been a tremendous help and source of motivation.
+
+- Thanks to the Code Institute team for providing me with some basic knowledge of Python.
+
+- Thanks to the Code Institute community on Slack who helped remind me that everyone has difficult days.
+
+- A huge thank you to my friends who support my coding journey on a daily basis.
+
+
 
 
 
