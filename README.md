@@ -14,17 +14,17 @@ This project serves as an excellent example of using Python for game development
 
 ### Features include:
 
-- User-Friendly Interface : Easy-to-navigate menu options to start the game, view rules, reset scores, or exit the application.
+- **User-Friendly Interface**: Easy-to-navigate menu options to start the game, view rules, reset scores, or exit the application.
 
-- Personalization : Players are prompted to enter their name for a personalized experience.
+- **Personalization**: Players are prompted to enter their name for a personalized experience.
 
-- Flexible Input : Supports both full word inputs (rock, paper, scissors) and abbreviations (r, p, s) for ease of use.
+- **Flexible Input**: Supports both full word inputs (rock, paper, scissors) and abbreviations (r, p, s) for ease of use.
 
-- Dynamic Score Tracking : Continuously tracks and displays scores of both the player and the computer.
+- **Dynamic Score Tracking**: Continuously tracks and displays scores of both the player and the computer.
 
-- Replayability : Players can play multiple rounds and return to the main menu at any time.
+- **Replayability**: Players can play multiple rounds and return to the main menu at any time.
 
-- Randomized Choices : The computer's choices are randomized using Python's random module, ensuring a fair and unpredictable game.
+- **Randomized Choices**: The computer's choices are randomized using Python's random module, ensuring a fair and unpredictable game.
 
 ## Table of Contents
 
