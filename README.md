@@ -164,7 +164,7 @@ ___
 
 - **Implementation**: Check the game ends as expected and offers the play again option upon completion.
 - **Test**: I played the game multiple times, winning and losing. I selected play again and quit at random.
-**Result**: The game worked as anticipated with no errors.
+- **Result**: The game worked as anticipated with no errors.
 - **Verdict**: Test passed.
 
 ​**Validators**
