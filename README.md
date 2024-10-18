@@ -159,8 +159,8 @@ ____
 
 
 ## Bugs
-
--
+#### The following bugs were identified during user testing:
+- 🐞 - 
 -
 -
 -
