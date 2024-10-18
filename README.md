@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors Game
-### **Overview**
+## **Overview**
 
 The Rock-Paper-Scissors game is a Python-based version of the classic hand game. In this iteration, the user plays against the computer in a turn-based competition where the objective is to win the most rounds by selecting rock, paper, or scissors. The game is played in a terminal and provides a simple, yet engaging user experience.
 
@@ -14,7 +14,7 @@ Upon completion of each round, the player is presented with the option to play a
 This project serves as an excellent example of using Python for game development, showcasing the use of functions, loops, and conditionals in a real-world application. It also highlights the potential for extending terminal-based applications with additional features and enhancements.
 
 
-### Features include:
+## Features include:
 
 - **User-Friendly Interface**: Easy-to-navigate menu options to start the game, view rules, reset scores, or exit the application.
 
@@ -28,7 +28,7 @@ This project serves as an excellent example of using Python for game development
 
 - **Randomized Choices**: The computer's choices are randomized using Python's random module, ensuring a fair and unpredictable game.
 
-## Table of Contents
+## Table of Contents:
 
 **The content**
 
@@ -192,12 +192,16 @@ I used the following technologies for the Rock-Paper-Scissors project:
 -
 -
 -
+-
 
 ## Media
 Not in the scope of this project.
 
 ## Credits
-
+-
+-
+-
+-
 
 ## Honorable Mentions
 - A huge thank you to my mentor, Richard Wells, for his generous time and invaluable feedback throughout this project. His insights, ideas, and support have been a tremendous help and source of motivation.
