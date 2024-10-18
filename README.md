@@ -155,14 +155,26 @@ _____
 ____
 ## Testing Phase: 
 
+- **Implementation**: I wanted to make sure the game performed as expected from start to finish.
+- **Test**: I played the game on a local terminal and on Heroku over twenty times.
+- **Result**: The game worked as anticipated with no errors.
+- **Verdict**: Test passed.
+
+___
+
+- **Implementation**: Check the game ends as expected and offers the play again option upon completion.
+- **Test**: I played the game multiple times, winning and losing. I selected play again and quit at random.
+**Result**: The game worked as anticipated with no errors.
+- **Verdict**: Test passed.
+
 ​**Validators**
 
 
 ## Bugs
 #### The following bugs were identified during user testing:
-- 🐞 - 
--
--
+- 🐞 - The scores of the player and computer were not kept tracked during the game.
+- ⚒️ - I realized that there was no code that ensures its functionality.
+- ✅ - On line 116 and 117, I added global variables to keep track of the scores of the player and computer. 
 -
 -
 
