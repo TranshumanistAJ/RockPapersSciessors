@@ -1,17 +1,19 @@
 import random
 # This will be used to generate the computer's choice in the game.
 
+
 # This function prints the art logo for the game when called
 def print_logo():
     print("""
-    ######                                                                                                                   
-    #     #  ####   ####  #    #    #####    ##   #####  ###### #####      ####   ####  #  ####   ####   ####  #####   ####  
-    #     # #    # #    # #   #     #    #  #  #  #    # #      #    #    #      #    # # #      #      #    # #    # #     
-    #     # #    # #      ######    #    # #    # #      #####  #    #    #  ### #    # # ####   ####   #    # #####   ####  
+    ######
+    #     #  ####   ####  #    #    #####    ##   #####  ###### #####      ####   ####  #  ####   ####   ####  #####   ####
+    #     # #    # #    # #   #     #    #  #  #  #    # #      #    #    #      #    # # #      #      #    # #    # #
+    #     # #    # #      ######    #    # #    # #      #####  #    #    #  ### #    # # ####   ####   #    # #####   ####
     #     # #    # #      #    #    #    # ###### #      #      #####      #    # #    # # #      #      #    # #   #      #
     #     # #    # #    # #    #    #    # #    # #    # #      #   #      #    # #    # # #      #      #    # #    # #    #
      #####   ####   ####  #    #     #####  #    #  ####  ###### #    #      ####   ####  #  ####   ####   ####  #    #  ####
     """)
+
 
 # This function displays the rules of the game and waits for the user to press enter before returning to the main menu.
 def show_rules():
@@ -23,6 +25,7 @@ def show_rules():
     """)
     input("Press enter to continue")
     main_menu()
+
 
 # This function displays the main menu, prints the logo, and handles user input for menu choices
 def main_menu():
@@ -41,7 +44,7 @@ def main_menu():
             play_game()
             can_continue = True
         elif choice == '2':
-            show_rules()            
+            show_rules()
             can_continue = True
         elif choice == '3':
             reset_scores()
@@ -51,6 +54,7 @@ def main_menu():
             exit()
         else:
             print('Incorrect option chosen. Please try again.')
+
 
 # This function prompts the user for their choice, validates the input, and returns the full word rock paper or sciessors
 def get_user_choice():
@@ -67,9 +71,11 @@ def get_user_choice():
     else:
         return user_input
 
+
 # This function randomly selects and returns the computer's choice using the crandom computer choice
 def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
+
 
 # This function compares the user's choice with the computer's choice and returns the result of the game
 def determine_winner(user_choice, computer_choice):
@@ -82,6 +88,7 @@ def determine_winner(user_choice, computer_choice):
     else:
         return "Computer wins!"
 
+
 # This function resets both the user's and computer's scores to zero
 def reset_scores():
     print("Word")
@@ -89,6 +96,7 @@ def reset_scores():
     user_score = 0
     computer_score = 0
     print("Scores have been reset.")
+
 
 # This function contains the main game loop, handling multiple rounds of the game until the user chooses to stop playing
 def play_game():
@@ -112,9 +120,10 @@ def play_game():
             break
     main_menu()
 
+
 # These global variables keep track of the scores for the user and computer
 user_score = 0
 computer_score = 0
-#This conditional ensures that the main_menu() function is called only if the script is run directly
+# This conditional ensures that the main_menu() function is called only if the script is run directly
 if __name__ == "__main__":
     main_menu()
