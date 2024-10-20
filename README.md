@@ -77,13 +77,6 @@ This project serves as an excellent example of using Python for game development
 - To provide clear instructions and a definite win condition for each round.
 - To provide an enjoyable user experience of playing Rock-Paper-Scissors.
 - To deliver a fun and engaging take on the traditional game that keeps users entertained.
-_____
-
-### Color Scheme:
-- Not in the scope of this project.
-
-### Typography:
-- Not in the scope of this project.
 
 ___
 
