@@ -177,6 +177,40 @@ ____
 - There are no known unfixed bugs.
 
 ## Deployment:
+### **Steps to Deploy to Heroku**
+
+1. **Log in to Heroku or create an account if required.**
+
+2. **Create a New App**:
+    - Click the button labeled "New" from the dashboard in the top right corner.
+    - Select "Create new app" from the drop-down menu.
+    - Enter a unique app name. For example, you might choose `rock-paper-scissors-game`.
+    - Select the relevant region based on your location.
+    - Click the "Create app" button.
+
+3. **Configure the App**:
+    - Navigate to the "Settings" tab of your new app.
+    - Scroll down to the "Config Vars" section.
+    - Click the button labeled "Reveal Config Vars".
+    - Enter the "key" as `PORT` and the "value" as `8000`, then click the "Add" button.
+
+4. **Add Buildpacks**:
+    - Scroll down to the "Buildpacks" section of the settings page.
+    - Click the button labeled "Add buildpack", select "Python", and click "Save Changes".
+    - Repeat the step to add "node.js". Make sure that "Python" is listed first. If not, you can click on it and drag it upwards to change the order.
+
+5. **Deploy the App**:
+    - Navigate back to the "Deploy" tab.
+    - In the "Deployment method" section, select "GitHub".
+    - Confirm that you want to connect to GitHub.
+    - Search for your repository name and click the "Connect" button next to the intended repository.
+    - Choose your preferred deployment type:
+        - Click "Enable Automatic Deploys" for automatic deployment when you push updates to GitHub.
+        - Or select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
+
+6. **Run the App**:
+    - Once the deployment is complete, navigate to the "Activity" tab to see the build logs.
+    - You can open your app using the provided Heroku URL.
 
 
 ### **Tech**
