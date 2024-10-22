@@ -163,7 +163,8 @@ ___
 ## Linter CI Testing:
 - I have tested my file on Linter CI and found no errors.
 
-
+![Screesnhots for Linter](images/linter-screenshot-1.png)
+![Screenshots for Linter](images/linter-screenshot-2.png)
 
 
 ## Bugs
