@@ -160,7 +160,10 @@ ___
 - **Result**: The game worked as anticipated with no errors.
 - **Verdict**: Test passed.
 
-​**Validators**
+## Linter CI Testing:
+- I have tested my file on Linter CI and found no errors.
+
+
 
 
 ## Bugs
