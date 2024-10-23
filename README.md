@@ -172,8 +172,7 @@ ___
 - 🐞 - The scores of the player and computer were not kept tracked during the game.
 - ⚒️ - I realized that there was no code that ensures its functionality.
 - ✅ - On line 116 and 117, I added global variables to keep track of the scores of the player and computer. 
--
--
+
 
 ____
 
