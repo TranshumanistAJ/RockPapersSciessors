@@ -124,7 +124,7 @@ ____
 The game continues by asking the player whether they want to continue by choosing "y" which represents "yes" or "n" which represents "no". If the player decides to press "y" then the game continues.
 
 ![screenshot-player-wins](images/four-plyer-win-count-continue.jpeg)
-- This screenshots highlights the incident if the player wins by choosing "rock" and the computer "sciessors" then it declares the player the winner, and adds plus one to the score for the player.
+- This screenshots highlights the incident if the player wins by choosing "rock" and the computer "sciessors" then it declares the player the winner, and adds plus one to the score for the player. The game would then ask the player if they want to continue.
 
 _____
 
