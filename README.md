@@ -96,6 +96,10 @@ ___
 - #### Randomized Computer Choicesmodule for unpredictable gameplay:
   It uses Python's random module for unpredictable gameplay.
 ____
+
+## Deployment on Heroku:
+I have tested the game on Heroku and found no errors.
+The test can be found [here](https://my-rock-paper-scissors-game-c4426078589d.herokuapp.com/)
 ### Data Model:
 ##### The game operates with several functions different managing aspects:
 
