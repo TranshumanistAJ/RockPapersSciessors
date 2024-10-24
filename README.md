@@ -113,7 +113,12 @@ ____
 ![start-screen](images/zero-ask-for-a-number.jpeg)
 - At the very beginning, the game is displayed showing the main menu. Each option is numbered. The player has the choice to choose for e.g ("1") to play the game or any of the other options.
 
-![second-screenshot]()
+![second-screenshot](images/one-and-askname.jpeg)
+- The player chooses to start the game. The game would then ask the player to enter a name to represent the player for the duration of the game.
+
+![third-screenshot](images/two-askforletter.jpeg)
+- The game would then ask the player to choose one of the three options ( rock, paper, or sciessors) whether as full words or just the first letter of the words ( e.g. The player can simply choose "r" and the game would recognize this as "rock". The player can also choose to write the full word "rock" and it will serve the same purpose)
+
 
 _____
 
