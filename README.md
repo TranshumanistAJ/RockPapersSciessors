@@ -129,6 +129,11 @@ The game continues by asking the player whether they want to continue by choosin
 ![screenshot](images/computer-wins-randomness.png)
 - This screenshot highlights the incident when the computer wins ensuring the randomness of the process when it comes to choosing one of the three options.
 
+![screenshot-reset](images/seven-reset-score.png)
+- If the player chooses "n" which represents "no" not to continue, and decides to reset the score then the player would choose number three from the main menu aand the score will be reset.
+
+![screenshot-invalid]()
+
 _____
 
 
