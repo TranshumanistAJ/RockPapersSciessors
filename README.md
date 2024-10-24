@@ -123,6 +123,8 @@ ____
 - If the player chooses for e.g. "s" which represents "sciessors", and the computer chooses the same option, then it shows a "tie" and the game continues without adding any points to the player nor the computer.
 The game continues by asking the player whether they want to continue by choosing "y" which represents "yes" or "n" which represents "no". If the player decides to press "y" then the game continues.
 
+![screenshot-player-wins](images/four-plyer-win-count-continue.jpeg)
+- This screenshots highlights the incident if the player wins by choosing "rock" and the computer "sciessors" then it declares the player the winner, and adds plus one to the score for the player.
 
 _____
 
