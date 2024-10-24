@@ -30,7 +30,22 @@ This project serves as an excellent example of using Python for game development
 
 ## Table of Contents:
 
-**The content**
+1. [Planning Stage](#planning-stage)
+   - [Target Audiences](#target-audiences)
+   - [User Stories](#user-stories)
+   - [Site Aims](#site-aims)
+2. [Features](#features)
+3. [Deployment on Heroku](#deployment-on-heroku)
+4. [Data Model](#data-model)
+5. [Start Screen](#start-screen)
+6. [Future Enhancements](#future-enhancements)
+7. [Testing Phase](#testing-phase)  
+ 8. [Linter CI Testing](#linter-ci-testing)
+9. [Bugs](#bugs)
+10. [Unfixed Bugs](#unfixed-bugs)
+11. [Tech](#tech)
+12. [Media](#media)
+13. [Honorable Mentions](#honorable-mentions)
 
 
 
@@ -256,25 +271,10 @@ I used the following technologies for the Rock-Paper-Scissors project:
 - **Heroku**: For deploying the game online.
 
 
-## Libraries
-
--
--
-
-## Software
--
--
--
--
 
 ## Media
 Not in the scope of this project.
 
-## Credits
--
--
--
--
 
 ## Honorable Mentions
 - A huge thank you to my mentor, Richard Wells, for his generous time and invaluable feedback throughout this project. His insights, ideas, and support have been a tremendous help and source of motivation.
