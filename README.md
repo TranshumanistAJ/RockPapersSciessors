@@ -109,7 +109,11 @@ ____
 - **play_game()**: Manages the game loop, user input, and score updates.
 ____
 
-## Screenshots of the game and their deployment with demosntration
+### Start screen
+![start-screen](images/zero-ask-for-a-number.jpeg)
+- At the very beginning, the game is displayed showing the main menu. Each option is numbered. The player has the choice to choose for e.g ("1") to play the game or any of the other options.
+
+![second-screenshot]()
 
 _____
 
