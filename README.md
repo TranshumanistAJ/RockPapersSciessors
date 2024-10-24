@@ -119,6 +119,10 @@ ____
 ![third-screenshot](images/two-askforletter.jpeg)
 - The game would then ask the player to choose one of the three options ( rock, paper, or sciessors) whether as full words or just the first letter of the words ( e.g. The player can simply choose "r" and the game would recognize this as "rock". The player can also choose to write the full word "rock" and it will serve the same purpose)
 
+![screenshot-decision](images/three-it-is-atie-and-for-y-n.jpeg)
+- If the player chooses for e.g. "s" which represents "sciessors", and the computer chooses the same option, then it shows a "tie" and the game continues without adding any points to the player nor the computer.
+The game continues by asking the player whether they want to continue by choosing "y" which represents "yes" or "n" which represents "no". If the player decides to press "y" then the game continues.
+
 
 _____
 
