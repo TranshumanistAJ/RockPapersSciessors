@@ -126,6 +126,9 @@ The game continues by asking the player whether they want to continue by choosin
 ![screenshot-player-wins](images/four-plyer-win-count-continue.jpeg)
 - This screenshots highlights the incident if the player wins by choosing "rock" and the computer "sciessors" then it declares the player the winner, and adds plus one to the score for the player. The game would then ask the player if they want to continue.
 
+![screenshot](images/computer-wins-randomness.png)
+- This screenshot highlights the incident when the computer wins ensuring the randomness of the process when it comes to choosing one of the three options.
+
 _____
 
 
