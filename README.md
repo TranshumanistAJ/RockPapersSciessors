@@ -132,7 +132,8 @@ The game continues by asking the player whether they want to continue by choosin
 ![screenshot-reset](images/seven-reset-score.png)
 - If the player chooses "n" which represents "no" not to continue, and decides to reset the score then the player would choose number three from the main menu aand the score will be reset.
 
-![screenshot-invalid]()
+![screenshot-invalid](images/invalid-number.png)
+- If the player decides to play again but decides to choose "5" from the list which is invalid since there are only the options from 1 to 4 then the game would note the player that they have chosen an invalid number and ought to choose a correct number.
 
 _____
 
